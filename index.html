@@ -6,6 +6,6 @@ title: jFlex
 <h1>Блог {{ page.title }}</h1>
 <ul>
     {% for post in site.posts %}
-        <li>{{ post.date }} &ndash; <a href="{{ post.url }}">{{ post.title }}</a></li>
+        <li>{{ post.date | date_to_string }} &ndash; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
