@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: github-tactyle-default
 title: Запуск jFlex
 ---
 <h1>Запуск jFlex</h1>
